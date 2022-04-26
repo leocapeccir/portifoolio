@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #696969 16.62%, #000000 85.61%);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+.menu__principal {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 14rem;
+    margin-top: 7.8rem;
+}
+    
+   
+
+   
+    
+
+.titulo{
+    
+    font-size: 3rem;
+    font-weight: bold;
+    transition: all 1s;
+    color: white;
+    
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    transition: all 1s;
+
+}
+
+.cabecalho :hover{
+    transform: scale(3px);
+    transform: scale(1.1);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0px;
+    
+  
+}
+    
+
+
+.container :hover{
+    transform: scale(3px);
+    transform: scale(1.1);
+}
+
+.imagem{
+    width: 10rem;
+    height: 9rem;
+    margin: 0px;
+    transition: all 1s;
+    z-index: -2;
+}
+.descricao__imagem{
+    color: gray;
+    z-index: 2;
+    padding-top: 10px;
+}
+.container__texto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 1rem;
+    gap: 95px;
+
+}
+
+.texto__footer{
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5rem;
+    transition: all 1s;
+    color: white;
+
+}
+
+.rodape :hover{
+    transform: scale(3px);
+    transform: scale(1.1);
+    
+}
+
+@media screen and (min-width:321px){
+
+
+    body{
+        background-size: 100%;
+    }
+    .titulo {
+        
+        text-align: center;
+    }
+    .container {
+        
+        gap: 140px;
+    }
+    .imagem {
+            width: 8rem;
+            height: 7rem;
+           
+       
+    }
+    .container__texto {
+        
+        padding-top: 1rem;
+        gap: 150px;
+    }
+    .container__texto {
+        
+        gap: 150px;
+       
+    }
+}
+
